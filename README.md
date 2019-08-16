@@ -21,6 +21,6 @@ right arrow - move right
 Different AI modes:
 P - follow human
 
-The follow human mode workes by detecting bodies and faces. The rotates and moves up, down, towards, or away from the human. 
-Currently the distance is infered from the size of the bounding boxes as pydnet was giving accurate enough depths.
+The follow human mode workes by detecting bodies and faces. The drone rotates and moves up, down, towards, or away from the human. 
+Currently the distance is infered from the size of the bounding boxes as pydnet was not giving accurate enough depths.
 TODO: research and find better alternative monocular depth detection.
