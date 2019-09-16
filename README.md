@@ -23,4 +23,15 @@ P - follow human
 
 The follow human mode workes by detecting bodies and faces. For this I use tensorflow's object detection API and some pre-trained models from the model zoo. The drone rotates and moves up, down, towards, or away from the human. 
 Currently the distance is infered from the size of the bounding boxes as pydnet was not giving accurate enough depths.
+
 TODO: research and find better alternative monocular depth detection.
+
+SLAM/ - currently developing SLAM for the drone.
+  Feature detection [done]
+  Feature matching [done]
+  Fundamental matrix estimation [done] - RANSAC with 8-point algorithm
+  Essential matrix decomposition [done]
+  Triangulation [done]
+  TODO:
+    Exdeded Kalman Filter
+  
